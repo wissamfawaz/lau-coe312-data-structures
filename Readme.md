@@ -2,7 +2,7 @@
 
 ## Link to course webpage
 
-The material of the course can be downloaded from the course's [webpage](https://wissamfawaz.com/Games/SnakeGame/index.html)
+The material of the course can be downloaded from the course's [webpage](https://wissamfawaz.github.io/lau-coe312-data-structures/)
 
 ## Logistics
 
