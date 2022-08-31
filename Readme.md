@@ -6,9 +6,7 @@ The material of the course can be downloaded from [webpage](https://wissamfawaz.
 
 ## Instructor
 
-<p align="center">
-[![Instructor Photo](img/wissam-fawaz.png)](https://wissamfawaz.com/)
-</p>
-<p align="center">
-Wissam Fawaz
-<p>
+<figure>
+<img src="img/wissam-fawaz.png" alt="Instructor Photo" style="width:50%"/>
+<figcaption align="center"><strong>Wissam Fawaz</strong></figcaption>
+</figure>
