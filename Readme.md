@@ -4,9 +4,6 @@
 
 The material of the course can be downloaded from [webpage](https://wissamfawaz.com/Games/SnakeGame/index.html)
 
-## Instructor
+## Instructor (Dr. Wissam Fawaz)
 
-<figure>
-<img src="img/wissam-fawaz.png" alt="Instructor Photo" style="width:50%"/>
-<figcaption align="center"><strong>Wissam Fawaz</strong></figcaption>
-</figure>
+[![Instructor Photo](img/wissam-fawaz.png)](https://wissamfawaz.com/)
