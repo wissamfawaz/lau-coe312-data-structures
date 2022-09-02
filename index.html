@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="./script.js" defer></script>
     <title>COE 312 schedule</title>
   </head>
   <body>
@@ -26,6 +27,11 @@
         /></a>
       </div>
     </header>
+    <div id="scroll-to-date" class="active" title="Go To Closest Date">
+      <svg viewBox = "0 0 24 24">
+        <img class="svg" src="./img/right-arrow-svgrepo-com.svg" />
+      </svg>
+    </div>
     <div class="container container-flex">
       <div class="preamble">
         <h2>Schedule</h2>
@@ -45,7 +51,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="Sep1">
             <th scope="row">September 01</th>
             <td>
               Overview, goals, and logistics (<a href="Syllabus.pdf">Syllabus</a
@@ -54,19 +60,19 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep6">
             <th scope="row">September 06</th>
             <td>Inheritance (<a href="slides/Lecture1.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep8">
             <th scope="row">September 08</th>
             <td>Inheritance (Continued)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep13">
             <th scope="row">September 13</th>
             <td>Polymorphism (<a href="slides/Lecture2.pptx">ppt</a>)</td>
             <td>
@@ -74,13 +80,13 @@
             </td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep15">
             <th scope="row">September 15</th>
             <td>Polymorphism (Continued)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep20">
             <th scope="row">September 20</th>
             <td>
               Polymorphism Case Study: Inner/Timer Class (<a
@@ -93,25 +99,25 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep22">
             <th scope="row">September 22</th>
             <td>Exceptions (<a href="slides/Lecture5.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep27">
             <th scope="row">September 27</th>
             <td>Exceptions Case Study: Text and Binary File Management</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Sep29">
             <th scope="row">September 29</th>
             <td>Exceptions Case Study: Downloading Text and Binary Files</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct4">
             <th scope="row">October 04</th>
             <td>
               Java Built-in Collection Classes (<a href="slides/Lecture6.pptx"
@@ -121,37 +127,37 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct6">
             <th scope="row">October 06</th>
             <td>Java Built-in Collection Classes (Continued)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct11">
             <th scope="row">October 11</th>
             <td>Java Built-in Collection Classes (Continued)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct12">
             <th scope="row">October 13</th>
             <td>Java Built-in Collection Classes: Case Study</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct18">
             <th scope="row">October 18</th>
-            <td>Java Built-in Collection Classes: Case Study (Contiued)</td>
+            <td>Java Built-in Collection Classes: Case Study (Continued)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct20">
             <th scope="row">October 20</th>
             <td>Recursion (<a href="slides/Lecture7.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct25">
             <th scope="row">October 25</th>
             <td>Recursion (Continued)</td>
             <td>
@@ -165,13 +171,13 @@
             </td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Oct27">
             <th scope="row">October 27</th>
             <td>Exam I</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov1">
             <th scope="row">November 01</th>
             <td>Recursion (Continued)</td>
             <td>
@@ -181,13 +187,13 @@
             </td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov3">
             <th scope="row">November 03</th>
             <td>Algorithm Analysis (<a href="slides/Lecture8.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov8">
             <th scope="row">November 08</th>
             <td>
               Algorithm Analysis (Continued) (<a href="slides/Lecture9.pptx"
@@ -197,19 +203,19 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov10">
             <th scope="row">November 10</th>
             <td>Stack ADT (<a href="slides/Lecture10.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov15">
             <th scope="row">November 15</th>
             <td>Queue ADT (<a href="slides/Lecture11.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov17">
             <th scope="row">November 17</th>
             <td>
               Singly Linked List (<a href="slides/Lecture12.pptx">ppt</a>)
@@ -217,7 +223,7 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov22">
             <th scope="row">November 22</th>
             <td>
               Doubly Linked List (<a href="slides/Lecture13.pptx">ppt</a>)
@@ -233,19 +239,19 @@
             </td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov24">
             <th scope="row">November 24</th>
             <td>Doubly Linked List (Iterator and Case Studies)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Nov29">
             <th scope="row">November 29</th>
             <td>Exam II</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Dec1">
             <th scope="row">December 01</th>
             <td>
               Binary Trees (Introduction) (<a href="slides/Lecture14.pptx"
@@ -255,7 +261,7 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Dec6">
             <th scope="row">December 06</th>
             <td>
               Binary Trees (Case Studies) (<a href="slides/Lecture15.pptx"
@@ -265,7 +271,7 @@
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
-          <tr>
+          <tr class="Dec8">
             <th scope="row">December 08</th>
             <td>
               Binary Search Trees (<a href="slides/Lecture16.pptx">ppt</a>)

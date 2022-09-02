@@ -141,3 +141,58 @@ tr td:nth-child(4) {
     display: table-cell;
   }
 }
+
+/*** Button ***/
+#scroll-to-date {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-transition: bottom .2s,opacity .2s;
+  -o-transition: bottom .2s,opacity .2s;
+  -moz-transition: bottom .2s,opacity .2s;
+  transition: bottom .2s,opacity .2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.svg{
+  /*** picture positioning ***/
+  position: relative;
+  bottom: 48px;
+  right: -15px;
+  height: 50%;
+}
+
+/*** Animation ***/
+tr.active{
+  color: white;
+  background-color: #0cae88;
+}
+.active>td>a{
+  color: white;
+}
+
+/*** button shift between active and hidden ***/
+div.active{
+  background: #0cae88;
+  color: white;
+  cursor: pointer;
+  display: block;
+  height: 56px;
+  width: 56px;
+  z-index: 1;
+  opacity: 1;
+  outline: 0;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+div.hidden{
+  display: none;
+}
