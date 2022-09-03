@@ -47,8 +47,9 @@ Layout
 ================= */
 
 .logo-image {
-  max-width: 90%;
+  max-width: 100%;
   object-fit: contain;
+  display: block;
 }
 
 .container {
@@ -110,11 +111,12 @@ thead th:nth-child(2) {
 th,
 td {
   padding: 10px;
+  border-bottom: 1px solid #0cae88;
 }
 
-tr:not(:last-child) th,
-tr:not(:last-child) td {
-  border-bottom: 1px solid #0cae88;
+tbody tr:last-child th,
+tbody tr:last-child td {
+  border-bottom: none;
 }
 
 tbody td {
