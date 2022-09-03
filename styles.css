@@ -47,9 +47,8 @@ Layout
 ================= */
 
 .logo-image {
-  width: 40%;
-  object-fit: cover;
-  margin-inline: auto;
+  max-width: 90%;
+  object-fit: contain;
 }
 
 .container {
@@ -64,9 +63,7 @@ Layout
 }
 
 header {
-  padding: 1em 0;
-  text-align: center;
-  margin-bottom: 1em;
+  padding: 2em 0;
 }
 
 footer {
@@ -80,10 +77,15 @@ footer {
 
 #header-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 15rem;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.header-title {
+  text-align: center;
 }
 
 /* =================
@@ -107,8 +109,12 @@ thead th:nth-child(2) {
 
 th,
 td {
-  border-bottom: 1px solid #0cae88;
   padding: 10px;
+}
+
+tr:not(:last-child) th,
+tr:not(:last-child) td {
+  border-bottom: 1px solid #0cae88;
 }
 
 tbody td {
@@ -127,8 +133,9 @@ tr td:nth-child(4) {
     font-size: 1.125rem;
   }
 
-  .logo-image {
-    width: 30%;
+  #header-container {
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   thead th:nth-child(1) {
@@ -152,12 +159,5 @@ tr td:nth-child(4) {
   tr th:nth-child(4),
   tr td:nth-child(4) {
     display: table-cell;
-  }
-}
-
-@media (max-width: 1000px) {
-  #header-container {
-    flex-direction: column;
-    margin-left: 0;
   }
 }
