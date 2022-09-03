@@ -64,13 +64,13 @@ Layout
 }
 
 header {
-  padding: 2em 0;
+  padding: 3em 0;
 }
 
 footer {
   text-align: center;
   font-size: 1rem;
-  padding: 2em 0;
+  padding: 1em 0;
   background-color: #034f3d;
   color: white;
   margin-top: 3em;
