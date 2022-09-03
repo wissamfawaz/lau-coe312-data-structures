@@ -67,6 +67,140 @@ header {
   padding: 1em 0;
   text-align: center;
   margin-bottom: 1em;
+  justify-content: space-between;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-top: -20px;
+  background-color: #034f3d;
+}
+
+ul {
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+.floating_element {
+  max-width: 100%;
+  height: 55px;
+  cursor: pointer;
+}
+
+.nav-links a,
+.cta,
+.overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: color 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #21b592;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: #000000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: #282727;
+  color: #21b592;
+}
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #034f3d;
+  overflow-x: hidden;
+  transition: width 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: color 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #21b592;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+      font-size: 20px;
+  }
+  .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
 }
 
 footer {
