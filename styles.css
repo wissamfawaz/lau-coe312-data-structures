@@ -42,6 +42,34 @@ strong {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+ /* =================
+  Navigation Bar
+  ====================*/
+  #nav-ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    background-color:#034f3d;
+  }
+  .nav-actions{
+    float:left;
+    color:white;
+    transition:color 0.5s;
+    display:block;
+    padding:30px 35px;
+    text-decoration: none;
+    min-width:120px;
+    text-align:center;
+    font-family:"Roboto", sans-serif;
+    font-size: 20px;
+    font-weight:500;
+  }
+
+  .nav-actions:hover{
+    color:#0cae88;
+    background-color:#044c3b;
+  }
 
 /* =================
 Layout
@@ -65,7 +93,7 @@ Layout
 }
 
 header {
-  padding: 3em 0;
+  padding:0px;
 }
 
 footer {
@@ -94,12 +122,16 @@ footer {
 Table
 ================= */
 
-table {
-  table-layout: fixed;
-  border: 2px solid rgba(3, 79, 61, 0.7);
-  box-shadow: 0px 5px 10px 0px rgb(0, 0, 0, 0.3);
-  border-radius: 10px;
-}
+ table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 5px 10px 0px rgb(0, 0, 0, 0.3);
+   
+  }
+  #table-head{
+    background-color: #034f3d;
+    color:white;
+  }
 
 thead th:nth-child(1) {
   width: 20%;
