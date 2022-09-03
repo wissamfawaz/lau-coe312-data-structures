@@ -4,44 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" />
     <title>COE 312 schedule</title>
+
+
   </head>
   <body>
-    <header class="container">
-      <div id="header-container">
-        <div class="header-logo">
-          <a target="_blank" href="https://www.lau.edu.lb/"
-            ><img
-              src="img/lau-logo-small.png"
-              alt="LAU logo"
-              class="logo-image"
-          /></a>
-        </div>
-        <div class="header-title">
-          <h1>COE 312: Data Structures</h1>
-          <p class="subtitle"><strong>LAU, Fall 2022</strong></p>
-        </div>
-      </div>
+    
+    <header>
+
+          <nav>
+            <div class="logo" style="font-size: 20px;">DATA STRUCTURES - COE312</div>
+            <input type="checkbox" id="click"/>
+            <label for="click" class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="https://github.com/wissamfawaz/lau-coe312-data-structures" target="_blank">Github</a></li>
+              <li><a href="https://wissamfawaz.com/" target="_blank">Instructor</a></li>
+              
+            </ul>
+          </nav>
+         
     </header>
+
+
     <div class="container container-flex">
       <div class="preamble">
-        <h2>Schedule</h2>
-        <p>
-          Lecture slides and Java files will be posted here as time progresses
-          by Dr.
-          <a target="_blank" href="https://wissamfawaz.com/">Wissam Fawaz</a>.
-        </p>
+      <h2 style="padding-top:30px; padding-bottom: 30px;">What is this course about? </h2>
+     </div>
+     <h6 style="text-align: center; font-weight: 300; color: #777; font-size: 18px; font-family: tahoma; float: left; margin-left: 0px; margin-right: 0px;  padding-bottom: 30px;">This course provides an introduction to data structures and algorithms. More specifically, it touches on the basic principles underlying algorithm performance analysis and data structure design by covering algorithm analysis, stacks, queues, sequences, lists, priority queues, and trees.</h6>
+    </div>
+
+    <div class="container container-flex">
+      <div class="preamble">
+        <h2 style="padding-top:30px; padding-bottom: 30px;">Instructor</h2> 
+      </div>
+    <div style="background-color:rgb(238, 238, 238); border: 2px; border-radius: 10px;"> 
+        <div data-wkik-type="responsive-container-block" class="responsive-container-block">
+    
+         <div class="instructor-card gray">
+              <div class="team-img-wrapper">
+                <img style="border-radius: 50%; height: 180px; width: 200px;object-fit: cover;" src="https://soe.lau.edu.lb/images/faculty-wissam-fawwaz.jpg " id="irmeb"/>
+              </div>
+              <p class="text-blk name"><a href="https://wissamfawaz.com/" target="_blank" style="color:#00614b; font-size:26px; font-weight: 700; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Dr. Wissam Fawaz</a> </p>
+              <p class="text-blk position">Professor of COE at LAU & Passionate about Software Development. 
+              </p>
+              <div>
+              <a href="https://www.twitter.com/wissam_f" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://lb.linkedin.com/in/wissam-fawaz-6b440839" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://github.com/wissamfawaz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          
+              </div>
+        </div>
+      </div>
+    </div> 
+    </div> 
+
+ 
+
+
+    
+    <div class="container container-flex" style="padding-top:3px; padding-bottom: 30px;"> 
+      <div class="preamble">
+        <h2 style="padding-top:30px; padding-bottom: 30px;">Schedule</h2>
+    
       </div>
       <table>
-        <thead>
+        <thead id="schedule">
           <tr>
             <th scope="col">Date</th>
             <th scope="col">Topic</th>
@@ -286,3 +319,4 @@
     </footer>
   </body>
 </html>
+
