@@ -16,19 +16,29 @@
   </head>
   <body>
     <header>
-      <div id="header-container">
-        <div class="site-title">
-          <h1>COE 312: Data Structures</h1>
-          <p class="subtitle"><strong>LAU, Fall 2022</strong></p>
+      <nav>
+        <div class="navbar container container-flex col">
+          <div class="site-title">
+            <h1>COE 312: Data Structures - Overview</h1>
+            <p class="subtitle"><strong>LAU, Fall 2022</strong></p>
+          </div>
+          <div class="options container container-flex row">
+            <h2><a target="_self" href="index.html">Overview</a></h2>
+            <h2><a target="_self" href="slides.html">Slides</a></h2>
+            <h2><a target="_self" href="solutions.html">Solutions</a></h2>
+            <h2><a target="_self" href="javaFiles.html">Java Files</a></h2>
+            <h2><a target="_blank" href="https://wissamfawaz.com/">Credits</a></h2>
+          </div>
         </div>
-        <a target="_blank" href="https://www.lau.edu.lb/"
-          ><img src="img/lau-logo.jpg" alt="LAU logo" class="logo-image"
-        /></a>
-      </div>
-    </header>
-    <div class="container container-flex">
+      </nav>
+     
+  </header>
+    <div class="container container-flex col">
+        <a target="_blank" href="https://www.lau.edu.lb/">
+          <img src="img/lau-logo.jpg" alt="LAU logo" class="logo-image"/>
+        </a>
       <div class="preamble">
-        <h2>Schedule</h2>
+
         <p>
           Lecture slides and Java files will be posted here as time progresses
           by Dr.
@@ -37,7 +47,7 @@
       </div>
       <table>
         <thead>
-          <tr>
+          <tr class="thead">
             <th scope="col">Date</th>
             <th scope="col">Topic</th>
             <th scope="col">Solution Keys</th>
@@ -52,7 +62,7 @@
               >)
             </td>
             <td>&nbsp;</td>
-            <td><a href="javaFiles/FirstSet.zip">First Set</a></td>
+            <td>&nbsp;</td>
           </tr>
           <tr>
             <th scope="row">September 06</th>
