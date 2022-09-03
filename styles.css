@@ -112,6 +112,10 @@ nav .subtitle {
   align-items: center;
 }
 
+.options h2{
+  font-size: 1rem;
+}
+
 .navbar a {
   position: relative;
 }
@@ -205,6 +209,10 @@ Media Queries
 @media (min-width: 875px) {
   .navbar.container-flex {
     flex-direction: row;
+  }
+
+  .options h2{
+    font-size: 1.125rem;
   }
 }
 
