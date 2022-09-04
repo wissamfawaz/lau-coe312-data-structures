@@ -114,6 +114,14 @@ td {
   padding: 10px;
   border-bottom: 1px solid #0cae88;
 }
+th {
+  top: 0;
+  position: sticky;
+  background-color: #034f3d;
+}
+#Date {
+z-index: 2;
+}
 
 tbody tr:last-child th,
 tbody tr:last-child td {
