@@ -11,7 +11,13 @@ body {
 Typography
 ================= */
 
-h1,
+h1{
+  font-weight: 500;
+  color: #90ead5;
+  padding-right: 20px;
+  margin-top: 0;
+}
+
 h2 {
   font-weight: 400;
   color: #034f3d;
@@ -48,9 +54,11 @@ Layout
 ================= */
 
 .logo-image {
-  max-width: 100%;
-  object-fit: contain;
+  max-width: 80%;
+  object-fit:contain ;
   display: block;
+  background-color: rgb(249, 239, 239);
+  
 }
 
 .container {
@@ -66,6 +74,10 @@ Layout
 
 header {
   padding: 3em 0;
+  background-image: url("/img/Background-image2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
@@ -88,6 +100,17 @@ footer {
 
 .header-title {
   text-align: center;
+  color:rgb(246, 239, 247);
+}
+
+#quote {
+  font-style: italic;
+  font-family: cursive;
+  font-size: large;
+  color:#0cae88;
+  text-align: center;
+  padding-top: 20px;
+  
 }
 
 /* =================

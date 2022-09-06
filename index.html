@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>COE 312 schedule</title>
+
   </head>
   <body>
     <header class="container">
@@ -26,13 +27,16 @@
           /></a>
         </div>
         <div class="header-title">
-          <h1>COE 312: Data Structures</h1>
+          <h1>Data Structures</h1>
+          <p class="subtitle"><strong>COE 321</strong></p>
           <p class="subtitle"><strong>LAU, Fall 2022</strong></p>
+
         </div>
       </div>
     </header>
     <main class="container container-flex">
       <section class="preamble">
+        <div id="quote"></div>
         <h2>Schedule</h2>
         <p>
           Lecture slides and Java files will be posted here as time progresses
@@ -282,6 +286,15 @@
       </table>
     </main>
     <footer>
+      <script>
+        const method = async function () {
+          const result = await fetch('quotes.json').then((res) => res.json())
+          const quote = result[Math.floor(Math.random() * result.length)]
+          const htmlElement = document.getElementById('quote')
+          htmlElement.textContent = quote.text + " ~ " + quote.author
+        }
+        method()
+      </script>
       <p><strong>Copyright &copy;2022</strong></p>
     </footer>
   </body>
