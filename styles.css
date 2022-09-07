@@ -46,11 +46,13 @@ strong {
 /* =================
 Layout
 ================= */
+.header-logo {
+  text-align: center;
+}
 
 .logo-image {
-  max-width: 100%;
+  max-width: 60%;
   object-fit: contain;
-  display: block;
 }
 
 .container {
@@ -131,6 +133,10 @@ tr td:nth-child(4) {
   display: none;
 }
 
+/* =================
+Media queries
+================= */
+
 @media (min-width: 675px) {
   body {
     font-size: 1.125rem;
@@ -139,6 +145,10 @@ tr td:nth-child(4) {
   #header-container {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .header-logo {
+    text-align: left;
   }
 
   thead th:nth-child(1) {
