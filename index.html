@@ -12,26 +12,62 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
     <title>COE 312 schedule</title>
   </head>
   <body>
-    <header class="container">
-      <div id="header-container">
-        <div class="header-logo">
-          <a target="_blank" href="https://www.lau.edu.lb/">
-            <img
-              src="img/lau-logo-retina-green.png"
-              alt="LAU logo"
-              class="logo-image"
-          /></a>
+    <div class = "navbar">
+      <div class="dropdown">
+        <button class="dropbtn">September
+        </button>
+        <div class="dropdown-content">
+          <a href="#Inheritance">Inheritance</a>
+          <a href="#Polymorphism">Polymorphism</a>
+          <a href="#GUI">GUI-based Apps</a>
+          <a href="#Exceptions">Exceptions</a>
+          </div>
         </div>
-        <div class="header-title">
-          <h1>COE 312: Data Structures</h1>
-          <p class="subtitle"><strong>LAU, Fall 2022</strong></p>
-        </div>
-      </div>
-    </header>
+        <div class="dropdown">
+          <button class="dropbtn">October
+          </button>
+          <div class="dropdown-content">
+            <a href="#BuiltInClasses">Java Built-in Collection Classes</a>
+            <a href="#Recursion">Recursion</a>
+            <a href="#Exam1">Exam I</a>
+            </div>
+          </div>
+          <div class="dropdown">
+          <button class="dropbtn">November
+          </button>
+          <div class="dropdown-content">
+            <a href="#AlgAnal">Algorithm Analysis</a>
+            <a href="#Stacks">Stacks</a>
+            <a href="#Queues">Queues</a>
+            <a href="#SinglyList">Singly Linked List</a>
+            <a href="#DoublyList">Doubly Linked List</a>
+            <a href="#Exam2">Exam II</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">December
+            </button>
+            <div class="dropdown-content">
+              <a href="#BinTrees">Binary Trees</a>
+              <a href="#BinSearch">Binary Search Trees</a>
+              </div>
+            </div>
+            <div class = "navbar-centered">
+              <h1>COE 312: Data Structures</h1>
+              <p class="subtitle"><strong>LAU, Fall 2022</strong></p>
+            </div>
+            <div class = "navbar-right">
+              <a target="_blank" href="https://www.lau.edu.lb/">
+                <img
+                  src="img/LAU-Logo-White.png"
+                  alt="LAU logo"
+                  class="logo-image"
+              /></a>
+            </div>
+          </div>
     <main class="container container-flex">
       <section class="quote"></section>
       <section class="preamble">
@@ -41,7 +77,7 @@
           by Dr.
           <a target="_blank" href="https://wissamfawaz.com/">Wissam Fawaz</a>.
         </p>
-      </section>
+      </div>
       <table>
         <thead>
           <tr>
@@ -63,9 +99,9 @@
           </tr>
           <tr>
             <th scope="row">September 06</th>
-            <td>Inheritance (<a href="slides/Lecture1.pptx">ppt</a>)</td>
+            <td><div id ="Inheritance"></div>Inheritance (<a href="slides/Lecture1.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
-            <td><a href="javaFiles/SecondSet.zip">Second Set</a></td>
+            <td>&nbsp;</td>
           </tr>
           <tr>
             <th scope="row">September 08</th>
@@ -75,7 +111,7 @@
           </tr>
           <tr>
             <th scope="row">September 13</th>
-            <td>Polymorphism (<a href="slides/Lecture2.pptx">ppt</a>)</td>
+            <td><div id ="Polymorphism"></div>Polymorphism (<a href="slides/Lecture2.pptx">ppt</a>)</td>
             <td>
               <a href="solutions/BookSolutions.zip">Book Solutions</a>
             </td>
@@ -95,6 +131,7 @@
                 >ppt</a
               >)
               <br />
+              <div id ="GUI"></div>
               GUI-based Apps (<a href="slides/Lecture4.pptx">ppt</a>)
             </td>
             <td>&nbsp;</td>
@@ -102,7 +139,7 @@
           </tr>
           <tr>
             <th scope="row">September 22</th>
-            <td>Exceptions (<a href="slides/Lecture5.pptx">ppt</a>)</td>
+            <td><div id ="Exceptions"></div>Exceptions (<a href="slides/Lecture5.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
@@ -121,6 +158,7 @@
           <tr>
             <th scope="row">October 04</th>
             <td>
+              <div id ="BuiltInClasses"></div>
               Java Built-in Collection Classes (<a href="slides/Lecture6.pptx"
                 >ppt</a
               >)
@@ -154,7 +192,7 @@
           </tr>
           <tr>
             <th scope="row">October 20</th>
-            <td>Recursion (<a href="slides/Lecture7.pptx">ppt</a>)</td>
+            <td><div id ="Recursion"></div>Recursion (<a href="slides/Lecture7.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
@@ -174,7 +212,7 @@
           </tr>
           <tr>
             <th scope="row">October 27</th>
-            <td>Exam I</td>
+            <td><div id ="Exam1"></div>Exam I</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
@@ -190,7 +228,7 @@
           </tr>
           <tr>
             <th scope="row">November 03</th>
-            <td>Algorithm Analysis (<a href="slides/Lecture8.pptx">ppt</a>)</td>
+            <td><div id ="AlgAnal"></div>Algorithm Analysis (<a href="slides/Lecture8.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
@@ -206,19 +244,20 @@
           </tr>
           <tr>
             <th scope="row">November 10</th>
-            <td>Stack ADT (<a href="slides/Lecture10.pptx">ppt</a>)</td>
+            <td><div id ="Stacks"></div>Stack ADT (<a href="slides/Lecture10.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
           <tr>
             <th scope="row">November 15</th>
-            <td>Queue ADT (<a href="slides/Lecture11.pptx">ppt</a>)</td>
+            <td><div id ="Queues"></div>Queue ADT (<a href="slides/Lecture11.pptx">ppt</a>)</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
           <tr>
             <th scope="row">November 17</th>
             <td>
+              <div id ="SinglyList"></div>
               Singly Linked List (<a href="slides/Lecture12.pptx">ppt</a>)
             </td>
             <td>&nbsp;</td>
@@ -227,6 +266,7 @@
           <tr>
             <th scope="row">November 22</th>
             <td>
+              <div id ="DoublyList"></div>
               Doubly Linked List (<a href="slides/Lecture13.pptx">ppt</a>)
             </td>
             <td>
@@ -248,13 +288,14 @@
           </tr>
           <tr>
             <th scope="row">November 29</th>
-            <td>Exam II</td>
+            <td><div id ="Exam2"></div>Exam II</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
           <tr>
             <th scope="row">December 01</th>
             <td>
+              <div id ="BinTrees"></div>
               Binary Trees (Introduction) (<a href="slides/Lecture14.pptx"
                 >ppt</a
               >)
@@ -275,6 +316,7 @@
           <tr>
             <th scope="row">December 08</th>
             <td>
+              <div id ="BinSearch"></div>
               Binary Search Trees (<a href="slides/Lecture16.pptx">ppt</a>)
             </td>
             <td>&nbsp;</td>
@@ -282,7 +324,7 @@
           </tr>
         </tbody>
       </table>
-    </main>
+    </div>
     <footer>
       <p><strong>Copyright &copy;2022</strong></p>
     </footer>
