@@ -353,7 +353,7 @@ const quotes = [
     author: "Eleanor Roosevelt",
   },
   {
-    text: "Argue for your limitations, and sure enough theyre yours.",
+    text: "Argue for your limitations, and sure enough they're yours.",
     author: "Richard Bach",
   },
   {
@@ -2097,7 +2097,7 @@ const quotes = [
     author: "Dalai Lama",
   },
   {
-    text: "If you must tell me your opinions, tell me what you believe in. I have plenty of douts of my own.",
+    text: "If you must tell me your opinions, tell me what you believe in. I have plenty of doubts of my own.",
     author: "Johann Wolfgang von Goethe",
   },
   {
@@ -2113,7 +2113,7 @@ const quotes = [
     author: "James Barrie",
   },
   {
-    text: "The real measure of your wealth is how much youd be worth if you lost all your money.",
+    text: "The real measure of your wealth is how much you'd be worth if you lost all your money.",
     author: null,
   },
   {
@@ -2297,7 +2297,7 @@ const quotes = [
     author: "Benjamin Disraeli",
   },
   {
-    text: "People take different roads seeking fulfilment and happiness. Just because theyre not on your road doesn't mean they've gotten lost.",
+    text: "People take different roads seeking fulfillment and happiness. Just because they're not on your road doesn't mean they've gotten lost.",
     author: "Dalai Lama",
   },
   {
