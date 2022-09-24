@@ -2297,7 +2297,7 @@ const quotes = [
     author: "Benjamin Disraeli",
   },
   {
-    text: "People take different roads seeking fulfillment and happiness. Just because they're not on your road doesn't mean they've gotten lost.",
+    text: "People take different roads seeking fulfilment and happiness. Just because they're not on your road doesn't mean they've gotten lost.",
     author: "Dalai Lama",
   },
   {
