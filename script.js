@@ -6582,7 +6582,7 @@ getQuote();
 function getQuote() {
   const rndIdx = Math.floor(Math.random() * quotes.length);
   quoteText = quotes[rndIdx].text;
-  quoteAuthor = (quotes[rndIdx].author)? quotes[rndIdx].author: "Unknown Author";
+  quoteAuthor = (quotes[rndIdx].author)? quotes[rndIdx].author : "Unknown Author";
   displayQuote(quoteText, quoteAuthor);
 }
 
