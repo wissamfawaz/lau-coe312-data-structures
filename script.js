@@ -6582,12 +6582,12 @@ getQuote();
 function getQuote() {
   const rndIdx = Math.floor(Math.random() * quotes.length);
   quoteText = quotes[rndIdx].text;
-  quoteAuthor = quotes[rndIdx].author;
+  quoteAuthor = (quotes[rndIdx].author)? quotes[rndIdx].author: "Unknown Author";
   displayQuote(quoteText, quoteAuthor);
 }
 
 function displayQuote(quote, author) {
-  if (quote !== null && author !== null) {
+  if (quote !== null) {
     const textParagraph = document.querySelector(".quote");
     textParagraph.innerHTML = `"${quote}" &mdash; <strong>${author}</strong>`;
   }
